@@ -10,7 +10,8 @@ public class GasPrice {
         int number = litre.nextInt();
         System.out.println("Вы ввели" + " " + number);
         int price = 49;
-        System.out.println("Стоимость равна" + " " + number * price + "р.");
+        int result = number * price;
+        System.out.println("Стоимость равна" + " " + result + "р.");
 
     }
 }

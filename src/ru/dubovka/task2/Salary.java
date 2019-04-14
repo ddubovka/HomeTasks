@@ -11,7 +11,8 @@ public class Salary {
         int number = salary.nextInt();
         System.out.println("Вы ввели" + " " + number + ". ");
         System.out.println("Налоговый вычет на территории РФ составляет 13%. Жаль Вам это сообщать, но Ваша реальная зарплата будет:");
-        System.out.println(number * 0.87);
+        int result = number * 87 / 100;
+        System.out.println(result);
 
     }
 }
