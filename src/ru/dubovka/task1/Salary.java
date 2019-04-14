@@ -1,11 +1,9 @@
 package ru.dubovka.task1;
 
 public class Salary {
-
-
-    public static void main(String[] args){
-        int salary_gross = 80000;
-        System.out.println(salary_gross*0.87);
-
+    public static void main(String[] args) {
+        int salaryGross = 80000;
+        int salaryFinal = salaryGross * 87 / 100;
+        System.out.println(salaryFinal);
     }
 }

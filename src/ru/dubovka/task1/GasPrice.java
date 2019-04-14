@@ -1,10 +1,10 @@
 package ru.dubovka.task1;
 
 public class GasPrice {
-
-    public static void main(String[] args){
+    public static void main(String[] args) {
         int price = 49;
         int litre = 50;
-        System.out.println(price * litre);
+        int result = price * litre;
+        System.out.println(result);
     }
 }
